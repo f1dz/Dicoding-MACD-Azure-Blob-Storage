@@ -40,7 +40,7 @@ $this->registerJs("
       // **********************************************
 
       // Replace <Subscription Key> with your valid subscription key.
-      var subscriptionKey = '896a4f7b8f164e9eaf32068cea214e2c';
+      var subscriptionKey = '" . Yii::$app->params['azureCognitiveKey'] . "';
 
       var uriBase = 'https://southeastasia.api.cognitive.microsoft.com/vision/v2.0/analyze';
 

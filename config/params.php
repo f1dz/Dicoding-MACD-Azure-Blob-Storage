@@ -4,5 +4,6 @@ return [
     'adminEmail' => 'admin@example.com',
     'azureStorageAccountName' => '',
     'azureStorageAccountKey' => '',
-    'azureStorageContainerName' => ''
+    'azureStorageContainerName' => '',
+    'azureCognitiveKey' => '',
 ];
