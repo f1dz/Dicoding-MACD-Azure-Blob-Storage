@@ -9,8 +9,19 @@
     <br>
 </p>
 
-This web is sample how to use Azure Blob Storage using Yii2 PHP Framework and was published <a href="https://ofidmacd.azurewebsites.net" target="_blank">here</a> for fulfill the submission on <a href="https://www.dicoding.com/academies/83" target="_blank">Dicoding MACD</a>.
+This web is sample how to use Azure Blob Storage using Yii2 PHP Framework and was published <a href="https://ofidmacd.azurewebsites.net" target="_blank">here</a> to fulfill the submission on <a href="https://www.dicoding.com/academies/83" target="_blank">Dicoding MACD</a>.
 Please use this app for studying only. 
+
+Install Required Vendors
+------------------------
+Make sure you have composer installed on your machine to Install required Vendors:
+~~~
+composer install
+~~~
+OR
+~~~
+php composer.phar install
+~~~
 
 CONFIGURATIONS
 ==============
@@ -41,3 +52,17 @@ To configure Azure Cognitive, open ```config/params.php``` and put your Azure Co
 ~~~
 'azureCognitiveKey' => '<your Azure Cognitive key>'
 ~~~ 
+
+Run The App
+-----------
+To run the app, execute command on your root directory:
+
+On Unix
+~~~
+./yii serve
+~~~
+On Windows
+~~~
+yii serve
+~~~
+Make sure you have PHP
