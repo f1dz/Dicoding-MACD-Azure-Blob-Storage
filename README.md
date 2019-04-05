@@ -14,7 +14,7 @@ Please use this app for studying only.
 
 Install Required Vendors
 ------------------------
-Make sure you have composer installed on your machine to Install required Vendors:
+Make sure you have PHP and composer installed on your machine, to Install required Vendors run this command:
 ~~~
 composer install
 ~~~
@@ -65,4 +65,3 @@ On Windows
 ~~~
 yii serve
 ~~~
-Make sure you have PHP
